@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Vendor Opening Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <img src="download.png" alt="Ghazi logo">
+      </div>
+      <p>Please fill out with the information that is requested below and submit. Thank you!</p>
+      <hr/>
+      <fieldset>
+        <legend>Vendor Information</legend>
+        <div class="item">
+          <label for="vendor name">Vendor Name<span>*</span></label>
+          <input id="name" type="text" name="Vendor Name" required/ placeholder="XYZ Vendor">
+        </div>
+        <div class="item">
+          <label for="address">Vendor Address<span>*</span></label>
+          <input id="address" type="text" name="text" placeholder="Street Address" required/>
+        </div>
+        
+        <div class="item">
+          <div class="name-item">
+            <div>
+            <label for="NTN">NTN No</label>
+            <input id="NTN" type="number" name="NTN" placeholder="00000000" >
+          </div>
+          <div>
+            <label for="CNIC">Proprieter CNIC No.<span>*</span></label>
+            <input type="number" name="CNIC" placeholder="00000-0000000-0" />
+          </div>
+          </div>
+        <div class="item">
+          <div class="name-item">
+            <div>
+            <label for="email">Vendor Email Address<span>*</span></label>
+            <input id="email" type="email" name="email" placeholder="ABCcompany@gmail.com" required/>
+          </div>
+          <div>
+            <label for="contact">Contact No.<span>*</span></label>
+            <input type="number" name="contact" placeholder="0311-1234567" required/>
+          </div>
+          </div>
+        <div class="item">
+          <div class="name-item">
+            <div>
+              <input type="text" name="city" placeholder="City" />
+            </div>
+            <div>
+              <input type="text" name="state" placeholder="State/region" />
+            </div>
+          </div>
+          <div class="item">
+            <div class="name-item">
+              <div>
+                <input type="text" name="code" placeholder="ZIP Code" />
+              </div>
+              <div>
+                <select>
+                  <option selected value="" disabled selected>Country</option>
+                  <option value="1">Pakistan</option>
+                  <option value="2">Germany</option>
+                  <option value="3">France</option>
+                  <option value="4">Armenia</option>
+                  <option value="5">USA</option>
+                  <option value="6">Spain</option>
+                  <option value="7">Italy</option>
+                </select>
+              </div>
+            </div>
+          </div>
+      </fieldset>
+      </br>
+      <fieldset>
+      <legend>Bank Details</legend>
+      <div class="item">
+      <label for="bankname">Bank Name<span>*</span></label>
+      <input id="bankname" type="text" name="bankname" placeholder="Bank Al Habib" required/>
+      <label for="branch-name">Branch Name<span>*</span></label>
+      <input id="name" type="text" name="branch-name" placeholder="ABC Road Branch" required/>
+
+      <label for="branch-code">Branch Code<span>*</span></label>
+      <input id="branch-code" type="number" name="branch-code" required/ placeholder="0000">
+      
+      </div>
+      <div class="item">
+      <label for="account-title">Account Title<span>*</span></label>
+      <input id="account-title" type="text" name="account-title" required placeholder="ABC Company"/>
+      </div>
+      <div class="item">
+      <label for="account-no">Account Number<span>*</span></label>
+      <input id="account-no" type="number" name="account-no"  placeholder="00-00000000-0" required />
+      <label for="IBAN">IBAN Number<span>*</span></label>
+      <input id="IBAN" type="text" name="IBAN" placeholder="PK00-ABCD-0000-0000-0000" required />
+      </div>
+      <fieldset>
+      <div class="btn-block">
+      <button type="submit" href="/">Submit</button>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>
